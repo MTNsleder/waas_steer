@@ -229,7 +229,7 @@ void setup()
 	Can1.begin(CAN_BPS_250K);
 
 	for (int filter=0;filter <3; filter ++) {
-		Can0.setRXFilter(0,0,true);
+		Can2.setRXFilter(0,0,true);
 		Can1.setRXFilter(0,0,true);
 	}
 
